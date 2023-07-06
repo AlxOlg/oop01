@@ -4,10 +4,9 @@ import java.util.Random;
 //*Базовый класс */
 public class Animal {
 
-    /**Список кличек и индекс для кличек по умолчанию */
     protected static Random random;
-    protected static ArrayList<String> names;
-    protected static int defaultIndex;
+    protected static ArrayList<String> names; // Список кличек
+    protected static int defaultIndex; // Индекс для кличек по умолчанию
     static {
         random = new Random();
         names = new ArrayList<String>();
